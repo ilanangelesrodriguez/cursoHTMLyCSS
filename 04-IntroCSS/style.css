@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+}
+/*Comentario: Fuente y color del parrafo*/
+p {
+    font-size: 16pt;
+    color:darkblue;
+}
+
+/*Selectores de ID: #*/
+p#primera {
+    color: black;
+    font-size: 12pt;
+}
+#segunda{
+    color: cornflowerblue;
+    font-size: 15pt;
+}
+
+/*Selectores de class: .   */
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+*.warning {
+    color: red;
+}
+.autor, .fecha{
+    text-decoration: underline;
+}

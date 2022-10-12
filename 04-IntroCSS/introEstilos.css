@@ -1,0 +1,39 @@
+.colores{
+    color: firebrick;
+}
+.color-hexadecimal{
+    color: #297373;
+}
+.color-RGB{
+    color: rgb(100, 0, 100)
+}
+.color-RGBA{
+    color: rgba(100, 0, 100, 100);
+}
+.fondo {
+    /*background-color: #297373;*/
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/953/692/original/abstract-colourful-watercolour-background-free-vector.jpg");
+    background-position:left bottom;
+}
+.fondo-interno{
+    /*background-color: #297373;*/
+    background-image: url("imagen/pexel.jpg");
+    background-position:left bottom;
+}
+
+/* Tamaños */
+.ancho {
+    background-color: lightblue;
+    width: 300px;
+}
+.alto {
+    background-color: darkcyan;
+    height: 100px;
+    width: 260px;
+}
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    border-top: none;
+}

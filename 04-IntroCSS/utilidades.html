@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"
+      integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+      crossorigin="anonymous"
+    />
+    <style>
+        html{
+            padding: 15px;
+        }
+        p {
+            color: crimson;
+        }
+    </style>
+  </head>
+  <body>
+    <p>Hola</p>
+    <form class="pure-form">
+        <fieldset>
+            <legend>Formulario</legend>
+            <input type="text" placeholder="Nombre" /> 
+            <textarea name="" id="" placeholder="Nota" cols="23" rows="1"></textarea>
+            <br>
+            <br>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <br>
+            <br>
+            <label for="default-remember">
+                <input type="checkbox" id="default-remember" /> Recuerdame
+            </label>
+            <button type="submit" class="pure-button pure-button-primary">Enviar</button>
+        </fieldset>
+    </form>
+    <button class="pure-button">Boton</button>
+    <button style="padding: 10px; border: none; border-radius: 10px;">Botón Personalizado</button>
+  </body>
+</html>
