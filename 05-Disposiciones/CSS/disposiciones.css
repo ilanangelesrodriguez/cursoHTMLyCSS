@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+html{
+    background-color: darkslategray;
+}
+body{
+    text-align: center;
+}
+.div-1, .div-2 {
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    background-color: aqua;
+    /*display: block; por defecto DIV tiene display block*/
+}
+.img {
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+}
+.span-1, .span-2 {
+    background-color: cadetblue;
+    /* height: 500px; */
+    /*display: inline; por defecto SPAN tiene display inline*/
+}
+.span-2 {
+    background-color: cadetblue;
+    float:right;
+}
+/**/
