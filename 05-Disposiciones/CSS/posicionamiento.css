@@ -2,3 +2,46 @@
 html {
     font-family: 'Silkscreen', cursive;
 }
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Posicionamiento relativo */
+.relative {
+    position: relative;
+    /* Permite posicionarlo en relacion a la posicion que tendria si fuera estatico */
+    left: 80px;
+}
+
+/* Posicionamiento fijo:  Se posiciona en relacion a la pantalla  */
+.fixed {
+    position: fixed;
+    /*Elimina espacio en blanco, se mantiene fijo. */
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+    background-color: aquamarine;
+}
+
+/*Posicionamiento absolute (total):  Nos permite posicionarlo igual que el fix, pero en relacion al padre*/
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.relative.contenedor {
+    width: 300px;
+    height: 800px;
+    background-color: blue;
+}
+
+/*Sticky (pegajoso): utiliza mezcla relativo y fijo */
+.sticky {
+    position: sticky;
+    background-color: darksalmon;
+    color: darkslategrey;
+    top: 0px;
+    z-index: 2;
+}

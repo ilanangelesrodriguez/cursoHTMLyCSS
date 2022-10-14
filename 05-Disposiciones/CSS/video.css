@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+html {
+    font-family: 'Silkscreen', cursive;
+    color: midnightblue;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
