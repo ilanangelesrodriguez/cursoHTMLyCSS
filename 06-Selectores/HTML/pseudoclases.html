@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <link rel="stylesheet" href="../CSS/pseudoclases.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 500px;
+            height: 150px;
+            background-color: aqua;
+        }
+        .hover:hover{
+            background-color: aquamarine;
+            cursor: auto;
+        }
+        .listado {
+            padding: 15px;
+            background-color: rgb(129, 127, 255);
+        }
+        .listado p:first-child{
+            color: aliceblue;
+        }
+        a:link { /*Link no visitado todavia*/
+            color: blue;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: aqua;
+        }
+        a:active {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Occaecat labore exercitation minim ex sit irure ullamco sunt cupidatat nulla nulla excepteur velit minim. Non elit proident laborum non aute sunt in est ad. Fugiat ullamco aliqua dolor proident ipsum irure sunt.</p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+        <p>Parrafo 4</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Google</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+html {
+    font-family: 'Silkscreen', cursive;
+}
+#boton:hover {
+    color: white;
+    background-color: green;
+}
+div #boton::after {
+    content: " ¡Hecho!";
+}
