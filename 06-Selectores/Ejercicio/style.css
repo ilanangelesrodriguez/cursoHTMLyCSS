@@ -7,6 +7,9 @@ html {
     color: white;
     background-color: green;
 }
-div #boton::after {
-    content: " ¡Hecho!";
+#boton::before {
+    content: "Pasa por encima";
+}
+#boton:hover::before {
+    content: "¡Hecho!";
 }
