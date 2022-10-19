@@ -4,11 +4,11 @@
     height: 5vh;
     background-color: dimgray;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn-modern:hover {
     border-radius: 5px;
     transform: translateY(-5px);
-    border-bottom: 2px solid rgb(4, 92, 255);
     background-color: rgb(58, 182, 182);
     color: aliceblue;
     transition: 0.4s;
