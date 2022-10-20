@@ -1,0 +1,23 @@
+.contenedor {
+    background-color: yellow;
+    padding: 0.25rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    /*Eje principal ---> horizontal*/
+    justify-content: space-around;
+    /*Eje secundario ---> vertical*/
+    align-items: baseline;
+
+    /* flex-direction: column; */
+    
+    flex-wrap: wrap;
+}
+.item {
+    background-color: rgb(0, 255, 179) ;
+    padding: 0.25rem;
+    width: 5rem;
+}
+.item2 {
+    align-self: stretch;
+}
