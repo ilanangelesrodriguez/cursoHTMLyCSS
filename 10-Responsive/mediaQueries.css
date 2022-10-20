@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+p {
+    color: darkblue;
+    font-size: 2rem;
+}
+/* @media screen and (max-width: 576px) { */
+/* @media all and (max-width: 576px) {  igual a*/
+/* @media (max-width: 576px) {
+    h1 {
+        color: green;
+    }
+} */
+@media (min-width: 570px) {
+    h1 {
+        color: green;
+    }
+}
+@media (min-width: 900px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) and (min-height:400px) {
+    p {
+        color: brown;
+    }
+}
+
+/*Se comporta como O*/
+@media (min-height: 300px), (min-width:1000px) {
+    h1 {
+        color: cyan;
+    }
+}
