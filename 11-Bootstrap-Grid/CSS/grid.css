@@ -1,0 +1,21 @@
+.row div {
+    margin: 0.25rem;
+}
+.col {
+    background-color: aquamarine;
+}
+.col-sm {
+    background-color: crimson;
+}
+.col-md {
+    background-color: rgb(105, 240, 111);
+}
+.col-lg {
+    background-color: rgb(88, 117, 245);
+}
+.col-xl {
+    background-color: rgb(187, 20, 220);
+}
+.col-xxl {
+    background-color: rgb(240, 236, 10);
+}
