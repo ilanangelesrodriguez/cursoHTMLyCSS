@@ -1,0 +1,13 @@
+/*Definimos variables*/
+:root {
+    --color-principal:rgb(3, 92, 107);
+    --ancho-principal:250px;
+}
+.titulo, .footer {
+    color: var(--color-principal);
+}
+.contenedor {
+    background-color: bisque;
+    padding: 1rem;
+    max-width: var(--ancho-principal);
+}
